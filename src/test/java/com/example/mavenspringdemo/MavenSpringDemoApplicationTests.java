@@ -8,6 +8,7 @@ class MavenSpringDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
+		
 	}
 
 }

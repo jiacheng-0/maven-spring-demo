@@ -12,3 +12,11 @@ To test:
 To add a parameter: 
 - http://localhost:8080/greeting?name=Jia%20Cheng 
 
+
+To copy dependencies:
+
+```
+mvn dependency:copy-dependencies -DoutputDirectory=${project.build.directory}/lib
+```
+
+Files are copied to build dir (`/target/lib`) 
